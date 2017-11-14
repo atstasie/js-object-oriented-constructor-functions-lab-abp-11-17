@@ -15,7 +15,7 @@ function Scooter(year, color, model) {
   let newDriver = new Driver();
   
   function PickupLocation(adress, city) {
-    this.address = adress;
+    this.adress = adress;
     this.city = city;
   }
   
